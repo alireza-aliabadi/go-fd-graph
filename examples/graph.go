@@ -71,7 +71,7 @@ func graphNpmDep() *charts.Graph {
 			Title: "npm dependencies demo",
 		}))
 
-	f, err := ioutil.ReadFile("fixtures/npmdepgraph.json")
+	f, err := ioutil.ReadFile("fixtures/npmdepgraph copy.json")
 	if err != nil {
 		panic(err)
 	}
